@@ -1,5 +1,5 @@
 {
-	"19805": {
+	"20807": {
 		"platform_config": {
 			"sensor_arch": "qcom_sensor_see"
 		},
@@ -85,18 +85,6 @@
 				"support": "true",
 				"module": "module_ignore"
 			},
-            "android.sensor.pressure":{
-                "type":6,
-                "support":"true",
-                "module":"bosch_bmp380",
-                "bosch_bmp380":{
-                    "mode":"factory_cali",
-                    "offset_standard":10000,
-                    "delta_standard":1000,
-                    "sample_amount":20,
-                    "cali_offset":0
-                }
-            },
             "qti.sensor.sar":{
                  "type":33171025,
                  "support":"true",
